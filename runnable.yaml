@@ -1,0 +1,7 @@
+services:
+  client.home:
+    environments:
+      restore:
+        command: 'yarn'
+      dev: 
+        command: 'yarn dev'
